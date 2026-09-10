@@ -1,0 +1,19 @@
+# Node dependencies in root and subdirectories
+node_modules/
+**/node_modules/
+
+# Build folders
+build/
+dist/
+**/build/
+**/dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
